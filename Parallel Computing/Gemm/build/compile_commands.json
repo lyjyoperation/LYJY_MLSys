@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lyjy/JotangRecrument/MLSys/Gemm/build",
+  "command": "/usr/local/cuda-12.9/bin/nvcc -forward-unknown-to-host-compiler -DDEBUG -I/home/lyjy/JotangRecrument/MLSys/Gemm/3rdparty/cutlass/include -I/home/lyjy/JotangRecrument/MLSys/Gemm/3rdparty/cutlass/tools/util/include -isystem=/usr/local/cuda-12.9/include -O3 --generate-code=arch=compute_89,code=[compute_89,sm_89] -std=c++17 -x cu -dc /home/lyjy/JotangRecrument/MLSys/Gemm/gemm.cu -o CMakeFiles/gemm_example.dir/gemm.cu.o",
+  "file": "/home/lyjy/JotangRecrument/MLSys/Gemm/gemm.cu"
+}
+]

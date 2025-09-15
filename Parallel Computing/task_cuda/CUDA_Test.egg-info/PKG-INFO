@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: CUDA_Test
+Version: 0.1.0
+Summary: CUDA Test Extension for PyTorch
+Requires-Dist: torch
+Requires-Dist: numpy
